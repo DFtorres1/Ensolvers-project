@@ -1,0 +1,3 @@
+# Ensolvers challenge
+
+Docker
