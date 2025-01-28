@@ -10,7 +10,7 @@ export class Migration1738089330363 implements MigrationInterface {
       password: 'doe',
     });
 
-    const note1 = await queryRunner.manager.save('note', {
+    await queryRunner.manager.save('note', {
       id: 70,
       title: 'First Note',
       content: 'This is the first note.',
@@ -18,26 +18,12 @@ export class Migration1738089330363 implements MigrationInterface {
       user: { id: user.id },
     });
 
-    const note2 = await queryRunner.manager.save('note', {
+    await queryRunner.manager.save('note', {
       id: 71,
       title: 'Second Note',
       content: 'This is the second note.',
       isActive: false,
       user: { id: user.id },
-    });
-
-    await queryRunner.manager.save('tag', {
-      name: 'to-do',
-      color: '33adb8',
-      user: { id: user.id },
-      notes: [note1],
-    });
-
-    await queryRunner.manager.save('tag', {
-      name: 'shop list',
-      color: '5ebd29',
-      user: { id: user.id },
-      notes: [note2],
     });
   }
 
