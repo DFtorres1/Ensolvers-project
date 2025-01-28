@@ -41,3 +41,7 @@ Follow these steps to set up and run the application:
   ```bash
   docker-compose down
   ```
+
+### Respositories
+- [Backend](https://github.com/DFtorres1/ensolvers-notes-back)
+- [Frontend](https://github.com/DFtorres1/ensolvers-notes-front)
