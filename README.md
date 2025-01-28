@@ -33,6 +33,8 @@ Follow these steps to set up and run the application:
 
 4. Once the build completes, the backend and frontend will be running in their respective containers.
 
+5. Enter to `localhost:4173`
+
 ## Notes
 
 - Ensure no other applications are using the ports required by the application.
