@@ -20,8 +20,8 @@ Follow these steps to set up and run the application:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hirelens-challenges/Torres-32f66a.git
-   cd Torres-32f66a
+   git clone https://github.com/DFtorres1/Ensolvers-project.git
+   cd Ensolvers-project
    ```
 
 2. Ensure Docker Desktop is running on your machine.
